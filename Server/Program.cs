@@ -10,7 +10,7 @@ namespace Server
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Log in server");
+            Console.WriteLine("Welcome to the Log In server");
             Console.ReadLine();
         }
     }

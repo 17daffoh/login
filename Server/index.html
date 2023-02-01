@@ -9,26 +9,31 @@
 <body>
     <h1>Login to Log In</h1>
 
-    <img id="logo.png" alt="logo.png"/>
+    <img src="logo.JPG" alt="logo.jpg"/>
 
     <div>
         <div id="login">
-            <label for="username">
+            <label for="usernameLabel">
                 Username:
-                <input type="text" name="username" />
+                <input type="text" name="username" id="username"/>
             </label>
         </div>
 
         <div>
-            <label for="password">
+            <label for="passwordLabel">
                 Password:
-                <input type="password" name="password" />
+                <input type="password" name="password" id="password"/>
             </label>
         </div>
 
-        <button>Reset Password</button>
-        <button>Create an account</button>
-        <button>Login</button>
+        <div id="hints">
+            Welcome to Log In
+        </div>
+
+        <button onclick="reset()">Reset Password</button>
+        <button onclick="createUser()">Create an account</button>
+        <button onclick="login">Login</button>
     </div>
+    <script src="lib.js"></script>
 </body>
 </html>

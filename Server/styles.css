@@ -1,5 +1,6 @@
 ﻿body {
-    background: #f5f4e3;
+    background: #4cff00;
+    transition-duration: 1s;
 }
 
 h1 {
@@ -12,5 +13,9 @@ img {
 }
 
 button {
-    background-color: #f6f6f1
+    background-color: #ff9400
+}
+
+button:hover {
+    background-color: #6965c6
 }
